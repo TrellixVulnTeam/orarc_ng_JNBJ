@@ -1,3 +1,6 @@
+## note
+最初 node_module を別で ng new して作ったのを移動して持った来たので、もしかしたら、影響があるかも
+
 # OrarcNg
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
