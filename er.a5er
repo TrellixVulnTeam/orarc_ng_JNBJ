@@ -54,10 +54,11 @@ Field="作成者","created_by","@INT","NOT NULL",,"","",$FFFFFFFF,""
 Field="ジャンル","junre","@VARCHAR",,,"","",$FFFFFFFF,""
 Field="独創性","originality","@DOUBLE",,,"","",$FFFFFFFF,""
 Field="普遍性","普遍性","@DOUBLE",,,"","",$FFFFFFFF,""
+Field="depth","depth","@DOUBLE",,,"","",$FFFFFFFF,""
 EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
-ModifiedDateTime=20220317230413
+ModifiedDateTime=20220321214715
 Position="MAIN",600,250,445,400
 ZOrder=1
 
