@@ -59,11 +59,12 @@ Field="閲覧数","view_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
 Field="(閲覧数_Read","read_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
 Field="高評価数","upvote_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
 Field="?(低評価数","downvote_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
+Field="作成日時","when_created","@DATETIME","NOT NULL",,"","",$FFFFFFFF,""
 EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
-ModifiedDateTime=20220323155955
-Position="MAIN",300,250,741,426
+ModifiedDateTime=20220323160556
+Position="MAIN",300,250,741,521
 ZOrder=1
 
 [Entity]
@@ -79,13 +80,14 @@ Field="txt","txt","@VARCHAR()","NOT NULL",,"","",$FFFFFFFF,""
 Field="作成日時","created_at","@DATETIME","NOT NULL",,"","",$FFFFFFFF,""
 Field="作成者","created_by","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
 Field="閲覧数","view_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
-Field="(閲覧数_Read","resd_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
+Field="(閲覧数_Read","read_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
 Field="高評価数","upvote_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
 Field="?(低評価数","downvote_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
+Field="作成日時","when_created","@DATETIME","NOT NULL",,"","",$FFFFFFFF,""
 EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
-ModifiedDateTime=20220323155324
+ModifiedDateTime=20220323160629
 Position="MAIN",1300,250,738,402
 ZOrder=2
 
