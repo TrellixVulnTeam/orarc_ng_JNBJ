@@ -62,12 +62,13 @@ Field="閲覧数","view_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
 Field="(閲覧数_Read","read_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
 Field="高評価数","upvote_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
 Field="?(低評価数","downvote_cnt","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
+Field="回答数","answers_cnt","@INT","NOT NULL",,"","",$FFFFFFFF,""
 Field="作成日時","when_created","@DATETIME","NOT NULL",,"","",$FFFFFFFF,""
 EffectMode=None
 Color=$000000
 BkColor=$F0CAA6
-ModifiedDateTime=20220325150509
-Position="MAIN",550,250,804,585
+ModifiedDateTime=20220325161912
+Position="MAIN",550,250,804,616
 ZOrder=1
 
 [Entity]
@@ -122,7 +123,7 @@ PName=answer_comment
 LName=answer_comment
 Comment=
 TableOption=
-Page=Main
+Page=MAIN
 Left=2600
 Top=1100
 Field="id","id","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
@@ -134,7 +135,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20220325150200
-Position="Main",2600,1100,855,423
+Position="MAIN",2600,1100,855,423
 ZOrder=4
 
 [Entity]
@@ -142,7 +143,7 @@ PName=question_comment
 LName=question_comment
 Comment=ひとつの質問に1アカウントで1コメントのみかそれ以上か検討
 TableOption=
-Page=Main
+Page=MAIN
 Left=350
 Top=1200
 Field="id","id","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
@@ -154,7 +155,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20220325150043
-Position="Main",350,1200,661,434
+Position="MAIN",350,1200,661,434
 ZOrder=5
 
 [Relation]
@@ -316,7 +317,7 @@ PName=category
 LName=category
 Comment=basic, programming, examination, law...
 TableOption=
-Page=Main
+Page=MAIN
 Left=50
 Top=250
 Field="id","id","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
@@ -325,7 +326,7 @@ EffectMode=None
 Color=$000000
 BkColor=$C0C0C0
 ModifiedDateTime=20220325150857
-Position="Main",50,250,368,175
+Position="MAIN",50,250,368,175
 ZOrder=13
 
 [Entity]
@@ -333,7 +334,7 @@ PName=junre
 LName=junre
 Comment=
 TableOption=
-Page=Main
+Page=MAIN
 Left=50
 Top=550
 Field="id","id","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
@@ -342,7 +343,7 @@ EffectMode=None
 Color=$000000
 BkColor=$C0C0C0
 ModifiedDateTime=20220325150847
-Position="Main",50,550,381,183
+Position="MAIN",50,550,381,183
 ZOrder=14
 
 [Relation]
