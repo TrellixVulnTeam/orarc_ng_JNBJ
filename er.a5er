@@ -67,7 +67,7 @@ EffectMode=None
 Color=$000000
 BkColor=$F0CAA6
 ModifiedDateTime=20220325150509
-Position="MAIN",550,250,741,585
+Position="MAIN",550,250,804,585
 ZOrder=1
 
 [Entity]
@@ -76,7 +76,7 @@ LName=answer
 Comment=
 TableOption=
 Page=MAIN
-Left=2550
+Left=2500
 Top=300
 Field="id","id","BIGINT AUTO_INCREMENT","NOT NULL",,"","",$FFFFFFFF,""
 Field="question_id","question_id","BIGINT","NOT NULL",,"","",$FFFFFFFF,""
@@ -92,7 +92,7 @@ EffectMode=None
 Color=$000000
 BkColor=$D1D1FF
 ModifiedDateTime=20220325144650
-Position="MAIN",2550,300,738,402
+Position="MAIN",2500,300,807,402
 ZOrder=2
 
 [Entity]
@@ -114,7 +114,7 @@ EffectMode=None
 Color=$000000
 BkColor=$99FFFF
 ModifiedDateTime=20220325144634
-Position="MAIN",1600,1350,717,320
+Position="MAIN",1600,1350,810,320
 ZOrder=3
 
 [Entity]
@@ -388,3 +388,20 @@ Bar3=185
 TermPos1=R
 TermPos2=R
 ZOrder=16
+
+[Comment]
+Comment=comment to comment について検討
+FontName=Tahoma
+FontBold=0
+FontItalic=0
+FontUnderline=0
+FontSize=9
+FontColor=$000000
+LineColor=$000000
+BkColor=$FFFFFF
+Page=Main
+Left=2723
+Top=1611
+ZOrder=17
+Width=569
+Height=66
